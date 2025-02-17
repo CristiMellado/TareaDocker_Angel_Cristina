@@ -21,27 +21,27 @@ docker exec -it web bash
 ls
 ```
 
-![image.png](image.png)
+![image.png](imagenes/image.png)
 
-![image.png](image%201.png)
+![image.png](imagenes/image%201.png)
 
 - Observamos la salida del `script.php` y de la página `index.html`  en el navegador.
 
-![image.png](image%202.png)
+![image.png](imagenes/image%202.png)
 
-![image.png](image%203.png)
+![image.png](imagenes/image%203.png)
 
 - Detenemos el contenedor `web`
 
-![image.png](image%204.png)
+![image.png](imagenes/image%204.png)
 
 - Eliminamos el contenedor `web`
 
-![image.png](image%205.png)
+![image.png](imagenes/image%205.png)
 
 - Comprobamos que se eliminó el contenedor.
 
-![image.png](image%206.png)
+![image.png](imagenes/image%206.png)
 
 ## 2. Bloque de código con el Dockerfile
 
@@ -54,7 +54,7 @@ RUN chown -R www-data:www-data /var/www/html \
 CMD ["apache2-foreground"]
 ```
 
-![image.png](image%207.png)
+![image.png](imagenes/image%207.png)
 
 ## 3. Captura de pantalla y documento donde se vea el comando que crea la nueva imagen.
 
@@ -65,13 +65,13 @@ cd C:\Users\crist\OneDrive\Escritorio\ejercicio5
 docker build -t apachecristiangel .
 ```
 
-![image.png](image%208.png)
+![image.png](imagenes/image%208.png)
 
 - Captura de pantalla donde se comprueba que se creó la imagen
 
-![image.png](image%209.png)
+![image.png](imagenes/image%209.png)
 
-![image.png](image%2010.png)
+![image.png](imagenes/image%2010.png)
 
 ## 4. Captura de pantalla donde se vea la imagen subida a tu cuenta de Docker Hub.
 
@@ -85,11 +85,11 @@ Para ello utilizamos el siguiente comando.
 
 - En la sección `images`  ahora nos aparece el nuevo tag creado donde podremos hacer push a Docker Hub.
 
-![image.png](image%2011.png)
+![image.png](imagenes/image%2011.png)
 
 - Comprobamos que se subió exitosamente la imagen ya que nos aparece en el buscador de Docker Hub
 
-![image.png](image%2012.png)
+![image.png](imagenes/image%2012.png)
 
 ## 5. Captura de pantalla donde se vea la bajada de la imagen por parte de otra persona del grupo y la creación de un contenedor.
 
@@ -99,12 +99,12 @@ docker images
 docker run --name practicadocker -d -p 8080:80 cristimellado/apachecristiangel
 ```
 
-![image.png](image%2013.png)
+![image.png](imagenes/image%2013.png)
 
-![image.png](image%2014.png)
+![image.png](imagenes/image%2014.png)
 
 ## 6. Captura de pantalla donde se ve el acceso al navegador con el sitio web.
 
-![image.png](image%2015.png)
+![image.png](imagenes/image%2015.png)
 
-![image.png](image%2016.png)
+![image.png](imagenes/image%2016.png)
