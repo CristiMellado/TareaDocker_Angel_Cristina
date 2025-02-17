@@ -105,6 +105,6 @@ docker run --name practicadocker -d -p 8080:80 cristimellado/apachecristiangel
 
 ## 6. Captura de pantalla donde se ve el acceso al navegador con el sitio web.
 
-![image.png](image%2015.png)
+![image.png](imagenes/image%2015.png)
 
-![image.png](image%2016.png)
+![image.png](imagenes/image%2016.png)
