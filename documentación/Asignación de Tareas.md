@@ -34,7 +34,7 @@
 
 - Cuando se terminen todas las tareas observamos que en el apartado Done están cada una de ellas.
 
-![image.png](image%204.png)
+![image.png](imagenes/image%204.png)
 
 ## Conclusión trabajo en grupo.
 
