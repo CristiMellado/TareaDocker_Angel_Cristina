@@ -9,7 +9,7 @@
 
 - Crear el archivo `docker-compose.yaml`
 
-![image.png](image.png)
+![image.png](imagenes/image.png)
 
 ```docker
 version: '3'
@@ -40,7 +40,7 @@ services:
 docker-compose up
 ```
 
-![image.png](image%201.png)
+![image.png](imagenes/image%201.png)
 
 ## 2. Captura de pantalla donde se vea la aplicación funcionando.
 
@@ -52,7 +52,7 @@ docker exec -it htop-container htop
 
 - Evidencia de funcionamiento.
 
-![image.png](image%202.png)
+![image.png](imagenes/image%202.png)
 
 ## 3. Explicar brevemente cómo funciona esta aplicación y que hace.
 
