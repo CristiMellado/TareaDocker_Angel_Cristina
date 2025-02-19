@@ -18,19 +18,19 @@
 
 - Se muestra la previsión inicial que se tiene para la resolución de las tareas.
 
-![image.png](image.png)
+![image.png](imagenes/image.png)
 
 ## Progreso
 
 - Inicialmente cada miembro del equipo aborda una tarea de las asignadas, cambiándola de estado a In Progress.
 
-![image.png](image%201.png)
+![image.png](imagenes/image%201.png)
 
 - Una vez se finaliza la tarea se cambia de estado nuevamente a Done y las siguientes tareas a abordar se cambian a In Progress.
 
-![image.png](image%202.png)
+![image.png](imagenes/image%202.png)
 
-![image.png](image%203.png)
+![image.png](imagenes/image%203.png)
 
 - Cuando se terminen todas las tareas observamos que en el apartado Done están cada una de ellas.
 
